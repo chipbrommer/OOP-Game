@@ -2,31 +2,26 @@
 
 
 //This function loads the textures for the game.
-void AssetManager::LoadTexture( std::string name, std::string fileName )
+void AssetManager::LoadTexture(std::string name, std::string fileName)
 {
-    sf::Texture texture;
-        
-    //When the file loads successfullys, it gets added to the map of textures that we
-    //have already created.
-    if (texture.loadFromFile( fileName ) )
+    sf::Texture tex;
+    
+    if (tex.loadFromFile(fileName))
     {
-        this->_textures[name] = texture;
+        this->_textures[name] = tex;
     }
 }
 
 sf::Texture &AssetManager::GetTexture(std::string name)
 {
-    return this->_textures.at( name );
+    return this->_textures.at(name);
 }
 
-//This function loads the fonts for the game.
-void AssetManager::LoadFont( std::string name, std::string fileName )
+void AssetManager::LoadFont(std::string name, std::string fileName)
 {
     sf::Font font;
     
-    //When the file loads successfullys, it gets added to the map of fonts that we
-    //have already created.
-    if (font.loadFromFile( fileName ) )
+    if (font.loadFromFile(fileName))
     {
         this->_fonts[name] = font;
     }
@@ -34,6 +29,6 @@ void AssetManager::LoadFont( std::string name, std::string fileName )
 
 sf::Font &AssetManager::GetFont(std::string name)
 {
-    return this->_fonts.at( name );
+    return this->_fonts.at(name);
 }
 

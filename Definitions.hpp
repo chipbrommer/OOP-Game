@@ -1,10 +1,30 @@
-#ifndef Definitions_hpp
-#define Definitions_hpp
+#pragma once
 
+//Screen width and height
 #define SCREEN_WIDTH 860
 #define SCREEN_HEIGHT 540
 
-#define MAIN_MENU_BACKGROUND "/../Resources/Images/LavaLlamaBG.png"
-#define GAME_TITLE_LOGO "/../Resources/Images/LavaLlamaLogo.png"
+//Splash Screen related items
+#define SPLASH_STATE_DISPLAY_TIME 3.0
+#define OOP_SPLASH_SCREEN "Resources/Images/OOPSplashScreen.png"
 
-#endif /* Definitions_hpp */
+//Main Menu related items
+#define MAIN_MENU_BACKGROUND "Resources/Images/LavaLlamaBG.png"
+#define GAME_TITLE_LOGO "Resources/Images/LavaLlamaLogo.png"
+#define LAVA_PLAY_BUTTON "Resources/Images/LavaPlayButton.png"
+#define CREDITS_BUTTON "Resources/Images/CreditsButton.png"
+#define OPTIONS_BUTTON "Resources/Images/OptionsButton.png"
+
+//Character Select Screen related items
+#define OOP_SPLASH_SCREEN "Resources/Images/OOPSplashScreen.png"
+#define CHAR_SELECT_LOGO "Resources/Images/SelectYourLlamaLogo.png"
+#define BACK_BUTTON "Resources/Images/BackButton.png"
+
+//Credits Screen related items
+#define CREDITS_LOGO "Resources/Images/CreditsLogo.png"
+#define TEAM_OOP "Resources/Images/TeamCredits.png"
+
+//Options State related items
+#define OPTIONS_LOGO "Resources/Images/OptionsLogo.png"
+
+
