@@ -20,13 +20,12 @@
         this->_data->assets.LoadTexture("Lava Play Button", LAVA_PLAY_BUTTON);
         this->_data->assets.LoadTexture("Credits Button", CREDITS_BUTTON);
         this->_data->assets.LoadTexture("Options Button", OPTIONS_BUTTON);
-        
+
         _background.setTexture(this->_data->assets.GetTexture("Main Menu Background"));
         _title.setTexture(this->_data->assets.GetTexture("Game Title"));
         _playButton.setTexture(this->_data->assets.GetTexture("Lava Play Button"));
         _creditsButton.setTexture(this->_data->assets.GetTexture("Credits Button"));
         _optionsButton.setTexture(this->_data->assets.GetTexture("Options Button"));
-        
         
         //Setting the logo position
         _title.setPosition((SCREEN_WIDTH / 2) - (_title.getGlobalBounds().width / 2), _title.getGlobalBounds().height / 2 - 140);
@@ -72,7 +71,7 @@
     
     void MainMenuState::Update(float dt)
     {
-        
+
     }
     
     void MainMenuState::Draw(float dt)

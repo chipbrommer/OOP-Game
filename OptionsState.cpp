@@ -1,10 +1,9 @@
-#include <sstream>
+
 #include "Definitions.hpp"
 #include "OptionsState.hpp"
 #include "MainMenuState.hpp"
 
-
-
+#include <sstream>
 #include <iostream>
 
 //Default constructor
